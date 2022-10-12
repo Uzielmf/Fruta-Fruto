@@ -4,7 +4,7 @@
 .banner-titulo{
     color: #fdfdfd;
     font-family: Pacifico, cursive;
-    font-size: 5.0625rem;
+    /* font-size: 5.0625rem; */
     position: absolute;
     left: 50%;
     text-align: center;
@@ -15,9 +15,33 @@
 }
 
 .banner-imagen{
-    width: 100%;
+    background: url("../img/banner.jpg") no-repeat center / cover;
     height: calc(100vh - 72px);
+    width: 100%;
 }
+
+/* =======================DISENO RESPONSIVO CON MEDIAS QUERYS============================ */
+
+@media screen and (min-width: 0){
+    .banner-imagen{
+        height: calc(100vh - 51px);
+    }
+
+    .banner-titulo{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .banner-imagen{
+        height: calc(100vh - 72px);
+    }
+
+    .banner-titulo{
+        font-size: 5.0625rem;
+    }
+}
+
 /* sobrenosotros============================================*/
 
 .sobre{
@@ -104,7 +128,6 @@
 
 
 
-
-
+/* =======================DISENO RESPONSIVO CON MEDIAS QUERYS============================ */
 
 
