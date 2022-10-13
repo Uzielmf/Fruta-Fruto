@@ -84,4 +84,26 @@
     
 
 
-    /* =======================DISENO RESPONSIVO CON MEDIAS QUERYS============================ */
+    /* =======================DISENO RESPONSIVO CON MEDIAS QUERYS PERSONAS============================ */
+
+    /* ======================= DISENO RESPONSIVO CON MEDIAS QUERYS RECETARIO ============================ */
+
+@media screen and (min-width: 0){   /* ===================SMARTPHONE´S=============== */
+    .persona{
+        margin-bottom: 2rem;
+    }
+
+    .personas{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px){   /* ===================SMARTPHONE´S=============== */
+    .persona{
+        margin-bottom: 0rem;
+    }
+
+    .personas{
+        flex-direction: row;
+    }
+}
